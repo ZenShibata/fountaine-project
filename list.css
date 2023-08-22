@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #896914;
+    margin: o;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #5d3dd1;
+    color: #333;
+}
+
+.styled-table tr:nth-child(eve) {
+    background-color: #67116e;
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: #9f8326;
+}
+
+body {
+    background-image: url(https://i0.wp.com/dianisa.com/wp-content/uploads/2023/07/2-Background-Perpustakaan-Buku.jpg?resize=1000%2C600&ssl=1)
+}
