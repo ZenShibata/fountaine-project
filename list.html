@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <style> 
+    table {
+    border-collapse: collapse; 
+    width: 100%; 
+    max-width: 800%;
+    margin: auto;
+    }
+    th, td {
+        border: 1px solid #000000;
+        text-align: left;
+        padding: 8px
+    }
+    tr {
+        background-color: #000000; 
+    }
+    tr:nth-child(even) {
+        background-color: #c5a135;
+    }
+    tr:nth-child(ood) {
+        background-color: #988f2c;
+    }
+    </style>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            font-family: Arial, sans-serif;
+        }
+        /* th, td {
+            border: 1px solid #0b0a0a;
+            text-align: center;
+            padding: 12px;
+        }
+        th {
+            background-color: #464a54;
+            color: #333;
+        }
+        tr:ntr-child(even) {
+            background-color: #92aa41;
+        }
+        tr:nth-child(odd) {
+            backgound-color: #adc355;
+        } */
+    </style>
+    <link rel="stylesheet" href="list.css">
+</head> 
 <body>
-    <table border="1" cellpadding="10">
+    <table class="styled-table" border="1" cellpadding="10">
+    
+
         <tr>
             <td>NO.BUKU</td> 
             <td>JUDUL BUKU</td>
@@ -56,3 +105,4 @@
     </table>
 </body>
 </html>
+ 
