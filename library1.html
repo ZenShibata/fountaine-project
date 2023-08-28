@@ -12,39 +12,47 @@
 
 </head>
 <body>
-    <h1>INPUT BUKU</h1>
+    <center><h1 style="color: azure;">INPUT BUKU</h1></center>
 
-    <p>Judul Buku</p>
+    <form action="list.html" method="post">
+        <p style="color: azure;">Judul Buku</p>
     <input for="Jbuku" required>
 <br>
-    <p>Nomor Buku</p>
+    <p style="color: azure;">Nomor Buku</p>
     <input for="NoBuku" required>
     <br>
-    <p>Penerbit</p>
+    <p style="color: azure;">Penerbit</p>
     <input for="Penerbit" required>
 <br>
-    <p>Penulis</p>
+    <p style="color: azure;">Penulis</p>
     <input for="Penulis" required>
 <br>
-    <p>Type Buku</p>
+    <p style="color: azure;">Type Buku</p>
     <select>
+        <option></option>
         <option value="Novel">Novel</option>
         <option value="Komik">Komik</option>
         <option value="Majalah">Majalah</option>
     </select>    
 <br>
-    <p>Genre Buku</p>
-    <input type="radio" name="genre"><b>Fantasi</b>
-    <input type="radio" name="genre"><b>Fiksi</b>
-    <input type="radio" name="genre"><b>Non Fiksi</b>
+    <p style="color: azure;">Genre Buku</p>
+    <input type="radio" name="genre"><b style="color: azure;">Fantasi</b>
+    <input type="radio" name="genre"><b style="color: azure;">Fiksi</b>
+    <input type="radio" name="genre"><b style="color: azure;">Non Fiksi</b>
 <br>
-    <p>Sinopsis</p>
+    <p style="color: azure;">Sinopsis</p>
     <label for="sinopsis"></label>
-
+    
+   
     <textarea id="sinopsis"
     name="sinopsis" rows="4" cols="50"></textarea>
 <br>
+    <button type="reset">ulangi</button>
+<br>
     <a href="home.html"><button>Submit</button>
+<br>
+    </form>
+    <a href="home.html"><button>Batal</button></a>
 
 </body>
 </html>
